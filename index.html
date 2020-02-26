@@ -543,7 +543,7 @@
 
           <div class="col-lg-3 col-md-6 wow fadeInUp">
             <div class="member">
-              <img src="img/team-1.jpg" class="img-fluid" alt="">
+              <img src="img/team-11.png" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Dhruv Bansal</h4>
@@ -652,16 +652,19 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:neeraj@flipr.ai">neeraj@flipr.ai</a></p>
+              <p><a href="mailto:devops@flipr.ai">devops@flipr.ai</a></p>
             </div>
           </div>
 
         </div>
 
+        
         <div class="form">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
-          <form action="contactform.php" method="post" role="form" class="contactForm">
+
+        <!-- form Started -->
+          <form method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -677,11 +680,12 @@
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
-            <div class="text-center"><input type="submit" name="submit" value="send" class="sub-btn"></input></div>
+            <div class="text-center"><input type="reset" name="submit" value="send" class="sub-btn" onclick="sendEmail()" ></input></div>
           </form>
+
         </div>
 
       </div>
@@ -778,6 +782,10 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+  <!-- Javascript for contact form and sending mail  -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="js/handleForm.js"></script>
 
 </body>
 </html>
