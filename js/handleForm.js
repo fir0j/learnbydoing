@@ -24,6 +24,16 @@ function sendEmail() {
 	var senderEmail = 'firojvsfacebook@gmail.com';
 	var senderEmailPass = 'ayixkdtogvohkhap';
 	var receiverEmailBox = 'firoj.is.available@gmail.com';
+	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+	if (!name || !email || !subject || !message) {
+		alert('Some fields are missing!');
+		return;
+	} else if (!email.match(mailformat)) {
+		alert('Incorrect email');
+		return;
+	}
+
 	Email.send({
 		Host: 'smtp.gmail.com',
 		Username: senderEmail,
