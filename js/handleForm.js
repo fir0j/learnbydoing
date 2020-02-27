@@ -21,9 +21,9 @@ function sendEmail() {
 	</center>
 	`;
 
-	var senderEmail = 'firojvsfacebook@gmail.com';
-	var senderEmailPass = 'ayixkdtogvohkhap';
-	var receiverEmailBox = 'firoj.is.available@gmail.com';
+	var senderEmail = 'sfzdas@gmail.com';
+	var senderEmailPass = 'miocdobaqkppmwpe';
+	var receiverEmailBox = 'devops@flipr.ai';
 	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 	if (!name || !email || !subject || !message) {
@@ -43,6 +43,6 @@ function sendEmail() {
 		Subject: subject,
 		Body: body
 	}).then(function(message) {
-		alert('Thank you ! We have received your mail.');
+		alert('Thank you ! We will get in touch soon.');
 	});
 }
