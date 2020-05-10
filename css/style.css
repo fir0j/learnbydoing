@@ -77,34 +77,47 @@ h6 {
 
 .hero-text {
 	position: absolute;
+	margin-top: 80px;
 	text-align: justify;
 	max-width: 90ch;
 	padding: 10px;
+	/* border: 2px solid greenyellow; */
+	height: 100%;
 }
 
-.telegram {
+.hero-text p {
+	margin-top: 5%;
+}
+
+.hero-text .telegram {
 	display: flex;
 	justify-content: center;
+	position: absolute;
+	top: 30%;
 }
 
 .button-container {
-	width: 60%;
+	max-width: 60%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #1818187c;
 	color: #f2f2f2;
 	cursor: pointer;
-	font-size: x-large;
+	/* font-size: large; */
+	background-color: #181818d2;
 	font-weight: 600;
 }
 
+.button-container div {
+	padding-left: 30px;
+}
+
 .button-container:hover {
-	background-color: #075f307a;
+	background-color: #2ea5d9;
 }
 
 .button-container:active {
-	background-color: #075f30a4;
+	background-color: #1884b3;
 }
 
 .telegram img {
@@ -120,10 +133,14 @@ h6 {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 5px;
+	/* margin-top: 5%; */
 	padding: 5px;
 	position: relative;
 	width: 100%;
 	padding-bottom: 5%;
+	padding-top: 5%;
+	background-color: #181818;
+	color: whitesmoke;
 }
 
 .imagelayout2 {
@@ -1673,30 +1690,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media only screen and (min-device-width: 768px) {
 	.button-container {
 		font-weight: 600;
-		font-size: x-large;
-		height: auto;
-	}
-}
-
-@media only screen and (min-device-width: 320px) {
-	.hero-text p {
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-
-	.text-area p {
-		margin-left: 25px;
-		margin-right: 25px;
-	}
-
-	.hero {
-		padding-top: 10%;
-	}
-}
-
-@media only screen and (min-device-width: 480px) {
-	.hero {
-		padding-top: 0%;
 		font-size: large;
+		height: auto;
 	}
 }
