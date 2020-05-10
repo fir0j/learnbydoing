@@ -69,6 +69,90 @@ h6 {
 	color: #fff;
 }
 
+.imagelayout {
+	background-size: auto 100%;
+	margin-top: 78px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.hero {
+	position: relative;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 2px solid green; */
+}
+
+.hero-text {
+	position: absolute;
+	line-height: 1.4rem;
+	text-align: justify;
+	max-width: 90ch;
+	padding: 10px;
+}
+
+.telegram {
+	display: flex;
+	justify-content: center;
+}
+
+.button-container {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1818187c;
+	color: #f2f2f2;
+	cursor: pointer;
+	font-size: x-large;
+	font-weight: 600;
+}
+
+.button-container:hover {
+	background-color: #075f307a;
+}
+
+.button-container:active {
+	background-color: #075f30a4;
+}
+
+.telegram img {
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #18d26e;
+}
+
+.center-working {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5px;
+	padding: 5px;
+	position: relative;
+	width: 100%;
+}
+
+.imagelayout2 {
+	background-size: auto 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 5px;
+	width: 90ch;
+}
+
+.imagelayout2 p {
+	text-align: justify;
+	margin: auto 5px;
+}
 /* Prelaoder */
 
 #preloader {
@@ -1095,7 +1179,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials {
 	padding: 60px 0;
-	margin-top: 92px;
 }
 
 #testimonials .section-header {
