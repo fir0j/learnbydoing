@@ -73,7 +73,6 @@ h6 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* border: 2px solid green; */
 }
 
 .hero-text {
@@ -1657,8 +1656,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media only screen and (min-device-width: 320px) {
 	.button-container {
 		font-weight: 600;
-		font-size: x-small;
-		height: 50px;
+		font-size: small;
+		height: 60px;
 	}
 }
 
@@ -1673,7 +1672,30 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media only screen and (min-device-width: 768px) {
 	.button-container {
 		font-weight: 600;
+		font-size: x-large;
+		height: auto;
+	}
+}
+
+@media only screen and (min-device-width: 320px) {
+	.hero-text p {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.text-area p {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+
+	.hero {
+		padding-top: 15%;
+	}
+}
+
+@media only screen and (min-device-width: 480px) {
+	.hero {
+		padding-top: 0%;
 		font-size: large;
-		height: 65px;
 	}
 }
