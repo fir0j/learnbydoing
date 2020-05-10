@@ -58,75 +58,71 @@ h6 {
 	color: #fff;
 }
 
+.hero {
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 2px solid indigo; */
+}
+
 .imagelayout {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-size: auto 100%;
 	margin-top: 78px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin-bottom: 5px;
 }
 
-.hero {
-	position: relative;
-	margin-bottom: 5px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.hero-text {
+.hero-area {
 	position: absolute;
-	margin-top: 80px;
-	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	max-width: 90ch;
-	padding: 10px;
-	/* border: 2px solid greenyellow; */
-	height: 100%;
+	text-align: justify;
+	/* border: 2px solid red; */
 }
 
-.hero-text p {
-	margin-top: 5%;
+.hero-area p {
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
-.hero-text .telegram {
-	display: flex;
-	justify-content: center;
-	position: absolute;
-	top: 30%;
-}
-
-.button-container {
-	max-width: 60%;
+.telegram-button {
+	border-radius: 4px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 400px;
+	height: 80px;
+	background-color: #181818d2;
 	color: #f2f2f2;
 	cursor: pointer;
-	/* font-size: large; */
-	background-color: #181818d2;
-	font-weight: 600;
 }
 
-.button-container div {
-	padding-left: 30px;
+.telegram-button h2 {
+	margin: 0;
 }
 
-.button-container:hover {
+.telegram-button:hover {
 	background-color: #2ea5d9;
 }
 
-.button-container:active {
+.telegram-button:active {
 	background-color: #1884b3;
 }
 
-.telegram img {
+.telegram-button img {
+	position: relative;
 	width: 20%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #18d26e;
+	margin: 0;
 }
+
+/* learnby doing css */
 
 .center-working {
 	display: flex;
@@ -1672,25 +1668,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media only screen and (min-device-width: 320px) {
-	.button-container {
-		font-weight: 600;
-		font-size: small;
+	.telegram-button {
+		width: 250px;
 		height: 60px;
+	}
+
+	.telegram-button h2 {
+		font-size: large;
 	}
 }
 
 @media only screen and (min-device-width: 480px) {
-	.button-container {
-		font-weight: 600;
-		font-size: large;
-		height: 60px;
+	.telegram-button {
+		width: 400px;
+		height: 80px;
 	}
-}
 
-@media only screen and (min-device-width: 768px) {
-	.button-container {
-		font-weight: 600;
-		font-size: large;
-		height: auto;
+	.telegram-button h2 {
+		font-size: x-large;
 	}
 }
