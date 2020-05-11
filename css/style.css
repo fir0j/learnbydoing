@@ -69,6 +69,7 @@ h6 {
 .imagelayout {
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background-size: auto 100%;
@@ -77,7 +78,7 @@ h6 {
 }
 
 .hero-area {
-	position: absolute;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -1674,6 +1675,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 	}
 
 	.telegram-button h2 {
+		font-size: large;
+	}
+
+	.text-area h2 {
 		font-size: large;
 	}
 }
