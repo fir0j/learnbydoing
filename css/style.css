@@ -374,9 +374,6 @@ h6 {
 	color: red;
 }
 
-body {
-	font-family: fantasy;
-}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1617,6 +1614,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 	color: #ddd;
 }
 
+#about .objective-heading {
+	font-size: xxx-large;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1633,9 +1634,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 		border-right: 1px solid #ddd;
 	}
 
-	#team .member p {
+	/* #team .member p {
 		width: 18ch;
-	}
+	} */
 }
 
 @media (min-width: 992px) {
@@ -1689,6 +1690,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 	}
 }
 
+.card-img-height {
+	object-fit: contain;
+}
+
+.about-col .img {
+	display: flex;
+	justify-content: center;
+}
 /* width */
 ::-webkit-scrollbar {
 	width: 7px;
