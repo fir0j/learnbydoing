@@ -27,6 +27,12 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- =======================================================
+    Theme Name: BizPage
+    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 </head>
 
 <body>
@@ -34,8 +40,8 @@
   <!--==========================
     Header
   ============================-->
-  <header id="header" class="header-scrolled">
-    <div class="container-fluid ">
+  <header id="header">
+    <div class="container-fluid">
 
       <div id="logo" class="pull-left">
         <h1><a href="#intro" class="scrollto">LearnByDoing</a></h1>
@@ -46,47 +52,445 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#team">Team</a></li>
+          <!-- <li><a href="#about"></a></li> -->
+          <!-- <li><a href="#services">Services</a></li> -->
+          <!---<li><a href="#portfolio">Our Mentors</a></li>--->
+          <li><a href="#team">Mentors</a></li>
+
+
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#signin">SignIn</a></li>
-          <li><a href="#signup">SignUp</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
-  </header>
+  </header><!-- #header -->
 
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
-  <main id="main">
+        <ol class="carousel-indicators"></ol>
 
-    <div class="section-bg hero">
-      <div class="container imagelayout">
+        <div class="carousel-inner" role="listbox">
 
-        <img src="img/learn_large.jpg" class="img-fluid" alt="">
-
-          <div class="hero-area">
-              <p>Our main objective is building the best like-minded learning community.</p>
-                <a href="https://t.me/joinchat/P6tfdRtyredI2LRXJmEsqQ" target="_blank">
-                  <div class="telegram-button">
-                    <h2>Join Telegram Group</h2>
-                    <img src="img/telegram.png" class="img-fluid" alt="">
-                  </div>
-                </a>
+          <div class="carousel-item active">
+            <div class="carousel-background"><img src="img/intro-carousel/1.Like Minded Learning Community.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Building a like minded learning community</h2>
+                <div style="display:flex; justify-content:center;">
+                  <a href="https://t.me/joinchat/P6tfdRtyredI2LRXJmEsqQ" target="_blank"> 
+                    <div class="telegram-button">
+                      <h6>Join Telegram Group</h6>
+                      <img src="img/telegram.png" class="img-fluid" alt="">
+                    </div>
+                  </a>
+                </div>
+                <!-- <p>100+ projects delivered on time, blending high-skilled students and expert mentors to develop avant-garde projects.</p> -->
+                <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
+              </div>
+            </div>
           </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/2.Self Learning under the guidance of mentors.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Self learning under the guidance of expert mentors</h2>
+                <div style="display:flex; justify-content:center;">
+                  <a href="https://t.me/joinchat/P6tfdRtyredI2LRXJmEsqQ" target="_blank"> 
+                    <div class="telegram-button">
+                      <h6>Join Telegram Group</h6>
+                      <img src="img/telegram.png" class="img-fluid" alt="">
+                    </div>
+                  </a>
+                </div>
+                <!-- <p>Steering bright minds towards their aspired goals, placing them where they belong.</p> -->
+                <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/3.Best learning source materials.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Links & Guidelines of the best learning sources</h2>
+                <div style="display:flex; justify-content:center;">
+                  <a href="https://t.me/joinchat/P6tfdRtyredI2LRXJmEsqQ" target="_blank"> 
+                    <div class="telegram-button">
+                      <h6>Join Telegram Group</h6>
+                      <img src="img/telegram.png" class="img-fluid" alt="">
+                    </div>
+                  </a>
+                </div>
+                <!-- <p>Mentoring college students and freelancers to become proficient in contemporary industry in-demand technologies</p> -->
+                <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <div class="prev-button-bg">
+            <span class="carousel-control-prev-icon ion-arrow-left-c" aria-hidden="true"></span>
+          </div>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <div class="next-button-bg">
+            <span class="carousel-control-next-icon ion-arrow-right-c" aria-hidden="true"></span>
+          </div>
+          <span class="sr-only">Next</span>
+        </a>
 
       </div>
     </div>
+  </section><!-- #intro -->
 
-    <div class=" center-working ">
-        <div class="text-area">
-          <h2>How LearnByDoing Works ?</h2>
-          <div class="work-list">
-            <p class="ion-ios-arrow-righ">  Monthly/Weekly projects and winners.</p>
-            <p class="ion-ios-arrow-righ">  Self Learning.</p>
-            <p class="ion-ios-arrow-righ">  Doubt clearing with the peers.</p>
-            <p class="ion-ios-arrow-righ">  Links & Guidelines of the best learning sources.</p>
+  <main id="main">
+
+    <!--==========================
+      Featured Services Section
+    ============================-->
+    <!-- <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-bookmarks-outline"></i>
+            <h4 class="title"><a href="">Virtual Tech Team</a></h4>
+            <p class="description">We provide on-demand virtual tech team to Startups & Corporation, imparting cutting edge technologies to their projects.</p>
           </div>
+
+          <div class="col-lg-4 box box-bg">
+            <i class="ion-ios-heart-outline"></i>
+            <h4 class="title"><a href="">Industry Expertise</a></h4>
+            <p class="description">Projects will be manoeuvred by industry expert in latest technologies, having market experience from companies like Amazon, Goldman Sachs etc.</p>
+          </div>
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-stopwatch-outline"></i>
+            <h4 class="title"><a href="">Robust Timeline</a></h4>
+            <p class="description">We believe in uncompromising precision towards delivery of the projects, keeping our timelines robust at each stage of project delivery</p>
+          </div>
+
         </div>
-    </div>
+      </div>
+    </section> -->
+    <!-- #featured-services -->
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>How learnbydoing works ?</h3>
+          <p class="objective">“ Our main objective with learn by doing is to create a like minded self
+            learning community.​The reason for this is simple enough.We humans are
+            natural learners. We learn better from the things that we do. So we want to
+            create a platform where students under the guidance of expert industry
+            professionals can learn to work on in-demand industrial technologies by
+            working on projects similar to those in the industries.​ ”
+            </p>
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-3 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/How Learn by doing works/Preferred Telegram Group.png" alt="" class="img-fluid card-img-height">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <p>
+                Join your preferred telegram group according to the technologies you want to learn.                  
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/How Learn by doing works/Task and Timeline.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Plan</a></h2>
+              <p>
+                Task and timeline to complete the task will be given on the telegram group itself.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/How Learn by doing works/Ask our expert mentors.png" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <p>
+                Ask our experts if you have doubt in the task in our intractive telegram group.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/How Learn by doing works/Performer of the week and month.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-sunny-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Result</a></h2>
+              <p>
+                The top 5 performers will also receive the internship and placement opportunities.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- #about -->
+
+    <!-- ==========================
+      Services Section
+    ============================ -->
+
+    <!-- <section id="services">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3>Services</h3>
+          <p>We help companies to design future ready products, services, system and processes with the help of our deep domain experties and robust execution capability.</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+            <h4 class="title"><a href="">Web development</a></h4>
+            <p class="description">We provide development solutions to the companies with the help of our set of quality developers and deliver the project in the given time-frame.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+            <h4 class="title"><a href="">Mobile app development</a></h4>
+            <p class="description">We are also efficient in providing mobile application development solutions to the companies. Our set of developers are efficient in developing both Android and iOS applications.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-paper-outline"></i></div>
+            <h4 class="title"><a href="">ML/AI</a></h4>
+            <p class="description">We provide holistic solutions to problems related to Machine Learning & Artificial Intelligence. We are equipped with developers having hands-on experience on multiple types of ML models.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+            <h4 class="title"><a href="">Devops</a></h4>
+            <p class="description">We also provide devops solutions to the companies. Flipr will be more than happy to deliver those projects along with our set of quality devops experts in the given time-frame.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
+            <h4 class="title"><a href="">Data Science</a></h4>
+            <p class="description">We at Flipr have developers who can bring out the best insights from your data and provide you with the finest information, valuable to your business requirement</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-people-outline"></i></div>
+            <h4 class="title"><a href="">Hiring</a></h4>
+            <p class="description">We provide hiring solutions to the companies as well as provide numerous placement opportunities to the registered candidates.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+
+    <!-- #services -->
+
+
+    <!--==========================
+      Skills Section
+    ============================-->
+
+
+
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <!-- <section id="portfolio"  class="section-bg" >
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Our mentors</h3>
+        </header>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Revti raman</a></h4>
+                <p>Amazon seattle</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Arvind panday</a></h4>
+                <p>Amazon india</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Aditya yadav</a></h4>
+                <p>Visa</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Sanjiv kumar</a></h4>
+                <p>Ola</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Ashish goyal</a></h4>
+                <p>ex-amazon, ex-samsung</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Rishel raj</a></h4>
+                <p>Goldman sachs</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Mayank mittal</a></h4>
+                <p>Intugine technologies</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Neeraj prakash</a></h4>
+                <p>The droid</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Gautam sharma</a></h4>
+                <p>Datametica</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Rajat khetan</a></h4>
+                <p>Hopscotch</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- #portfolio -->
 
     <section id="testimonials" class="section-bg  fadeInUp">
       <div class="container">
@@ -98,104 +502,129 @@
         <div class="owl-carousel testimonials-carousel">
 
           <div class="testimonial-item">
-            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-            <h3>Harshit Shrivastava</h3>
+            <img src="img/Testimonial/Ankit Kumar.png" class="testimonial-img" alt="">
+            <h3>Ankit Kumar​</h3>
             <h4>Ceo &amp; Founder, Intugine Technologies</h4>
             <p>
               <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              We have worked closely with the founding team of Flipr and they have played a major role in our core tech hiring. The team is great at identifying the detailed requirement, beyond just the technical skills and help us find candidates which align with our culture, coordination skills, communication abilities and intelligence. We continue to use their services and can vouch for the quality.
+              Everyone was friendly.Everyone got equal chance to
+              show their knowledge. The location was also good and the
+              environment was also friendly enough so that any student could
+              keep their point in front of them. Process of dividing the students in
+              groups was also good. Finally i would like to say it was a great
+              experience for me to go through all the processes. 
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
           </div>
+
+          <div class="testimonial-item">
+            <img src="img/Testimonial/Pranav N Rao.png" class="testimonial-img" alt="">
+            <h3>Pranav N Rao​</h3>
+            <h4>Ceo &amp; Founder, Intugine Technologies</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Everyone was friendly and helpful.Great learning experience.Gained Knowledge of advance technologies and implemented them.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/Testimonial/Jatin Shekhar.png" class="testimonial-img" alt="">
+            <h3>Jatin Shekar​</h3>
+            <h4>Ceo &amp; Founder, Intugine Technologies</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Fun, learnings, interaction​
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
         </div>
 
       </div>
-    </section><!-- #testimonials -->
+    </section>
+    <!-- #testimonials -->
 
     <!--==========================
-      Team Section
+      Mentors Section
     ============================-->
     <section id="team">
       <div class="container">
         <div class="section-header wow fadeInUp">
-          <h3>Team</h3>
+          <h3>Mentors</h3>
           <p></p>
         </div>
 
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 wow fadeInUp">
+          <!-- <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/team-11.png" class="img-fluid" alt="">
+              <img src="img/Mentors/Revati Raman Singh.jpg" class="img-fluid round-mentors alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Dhruv Bansal</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  <h4 style="color:lightcoral">Revati Raman Singh</h4>
+                  <span>IIT Jodhpur Alumni
+                    </span>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
               </div>
             </div>
+          </div> -->
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/Mentors/Rishal Raj.jpg" class="img-fluid round-mentors" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4 style="color:lightslategray">Rishal Raj</h4>
+                  <span>Ex-Goldman Sachs Employee </span>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+              <div class="member">
+                <img src="img/Mentors/Mayank Mittal.jpg" class="img-fluid round-mentors" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4 style="color:lightcoral">Mayank Mittal</h4>
+                    <span> CTO, Intugine Technologies </span>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  </div>
+                </div>
+              </div>
           </div>
 
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="member">
-              <img src="img/team-2.jpg" class="img-fluid" alt="">
+              <img src="img/team-2.jpg" class="img-fluid round-mentors" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Anuj Gopal</h4>
+                  <h4 style="color:olivedrab">Anuj Gopal</h4>
                   <span>Chief Technical Officer</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="member">
-              <img src="img/team-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Arsalan Mobin</h4>
-                  <span>HR Manager</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
+          
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/team-4.jpg" class="img-fluid" alt="">
+              <img src="img/team-4.jpg" class="img-fluid round-mentors alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Neeraj Singh</h4>
+                  <h4 style="color:maroon">Neeraj Singh</h4>
                   <span>Software Developer</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
               </div>
             </div>
           </div>
 
+         
         </div>
 
       </div>
@@ -327,7 +756,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>learnbydoing</strong>. All Rights Reserved
+        &copy; Copyright <strong>LearnByDoing</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
