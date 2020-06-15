@@ -23,7 +23,7 @@ function sendEmail() {
 
 	var senderEmail = 'sfzdas@gmail.com';
 	var senderEmailPass = 'miocdobaqkppmwpe';
-	var receiverEmailBox = 'devops@flipr.ai';
+	var receiverEmailBox = 'hellolearnbydoing@gmail.com';
 	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 	if (!name || !email || !subject || !message) {
