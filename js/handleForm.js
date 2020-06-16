@@ -22,7 +22,7 @@ function sendEmail() {
 	`;
 
 	var senderEmail = 'sfzdas@gmail.com';
-	var senderEmailPass = 'miocdobaqkppmwpe';
+	var senderEmailPass = 'cgmqjacpbnaamodu';
 	var receiverEmailBox = 'hellolearnbydoing@gmail.com';
 	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
